@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootrap/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>EXAM2026-CA1</title>
+</head>
+
+<body>
+    <header>
+        <div class="card">
+            <h1 class="Tieude">Quản lý danh sách sản phẩm</h1>
+            <p class="tieungu">Giao diện nhập liệu và hiển hị danh sách sản phẩm 1 cách trực quan rõ ràng</p>
+        </div>
+    </header>
+    <section class="row">
+        <div class="card col-5">
+            <h2>Thêm sản phẩm mới</h2>
+            <p>Nhập đầy đủ thông tin để thêm sản phẩm vào danh sách</p>
+            <hr>
+            <span>Tên sản phẩm</span>
+            <input type="text" placeholder="Nhập tên sản phẩm">
+            <span>Danh mục</span>
+            <div>
+            <select id="Danhmuc">
+                <option selected --Chọn danh mục--></option>
+                <option value="1" Điện thoại></option>
+            </select>
+        </div>
+            <span>Giá</span>
+            <input type="number" placeholder="Nhập Giá">
+            <span>Trạng thái còn hàng</span>
+            <select id="trangthai">
+                <option value="1" Còn Hàng></option>
+            </select>
+            <div>
+                <button class="btn btn-success col-6">Thêm sản phẩm</button>
+                <button class="btn btn-light btn:hover col-5">Làm mới form</button>
+            </div>
+        </div>
+        <div class="card col-7">
+            <h2>Danh sách sản phẩm</h2>
+            <p>Danh sách sản phẩm mẫu được hiển thị từ dữ liệu hệ thống</p>
+            <hr>
+            <div class="table">
+                <table class="table">
+                    <thead class="table-light">
+                        <th>STT</th>
+                        <th>Tên sản phẩm</th>
+                        <th>Danh mục</th>
+                        <th>Giá</th>
+                        <th>Trạng thái</th>
+                    </thead>
+                    <tbody>
+                        <td>1</td>
+                        <td>Điện thoại Iphone 15</td>
+                        <td>Điện Thoại</td>
+                        <td>24.990.000đ</td>
+                        <td>Còn Hàng</td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

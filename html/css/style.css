@@ -4,12 +4,7 @@ header .card{
     flex-direction: column;
     justify-content: center;
 }
-.tieungu{
-    font-size: 14px;
-    color: white;
-    margin: 0;
-}
-header h1{
+header  h1{
     color: white;
 }
 header p{
